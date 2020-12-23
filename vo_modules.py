@@ -218,7 +218,7 @@ class VisualOdometry():
                             self.cfg.seq
                             )
         if self.cfg.dataset == "kitti":
-            img_data_dir = os.path.join(img_seq_dir, "image_2")
+            img_data_dir = os.path.join(img_seq_dir, "image_0")
         elif "tum" in self.cfg.dataset:
             img_data_dir = os.path.join(img_seq_dir, "rgb")
         else:

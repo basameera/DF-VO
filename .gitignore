@@ -12,3 +12,6 @@ model_zoo/
 # temporary files
 tmp/
 
+dataset/kitti_odom/odom_data
+*.png
+*.zip
